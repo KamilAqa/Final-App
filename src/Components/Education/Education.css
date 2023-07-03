@@ -1,0 +1,123 @@
+.education-image {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/src/image/efcabout.jpg);
+    width: 100%;
+    height: 540px;
+    background-size: cover;
+}
+
+.education {
+    color: white;
+    padding-top: 12%;
+    margin-bottom: 190px;
+}
+
+.education h1 {
+    font-size: 72px;
+    font-weight: 900;
+    font-family: initial;
+    width: 59%;
+    margin-bottom: 30px;
+}
+
+.education p {
+    font-size: 16px;
+    width: 59%;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.education button {
+    color: white;
+    background-color: #006CB6;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    transition: all 200ms linear;
+    border: none;
+}
+
+.frntdv-box {
+    display: flex;
+}
+
+.frntdv-left {
+    background: #EBF7FF;
+    width: 100%;
+
+}
+
+.frntdv-title {
+    padding: 50px 0 20px 70px;
+}
+
+.frntdv-box h1 {
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: rgb(157, 156, 156);
+}
+
+.frntdv-box p {
+    width: 90%;
+    font-size: 18px;
+    margin-bottom: 120px;
+}
+
+.frntdv-box h3 {
+    margin: 40px 0 20px;
+}
+
+.frntdv-right {
+    width: 100%;
+}
+
+.frntdv-right img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Backend */
+.bckndv-box {
+    display: flex;
+}
+
+.bckndv {
+    display: flex;
+}
+
+.bckndv-right {
+    background: #EBF7FF;
+    width: 100%;
+}
+
+.bckndv-title {
+    padding: 50px 0 20px 70px;
+}
+
+.bckndv-title h4 {
+    margin: 25px 0;
+}
+
+.bckndv-box h1 {
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: rgb(157, 156, 156);
+}
+
+.bckndv-box p {
+    width: 90%;
+    font-size: 18px;
+    margin-bottom: 120px;
+}
+
+.bckndv-left {
+    width: 100%;
+}
+
+.bckndv-left img {
+    width: 100%;
+    height: 100%;
+}

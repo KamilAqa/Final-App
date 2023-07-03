@@ -1,0 +1,13 @@
+.our-services-image {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/src/image/efcabout.jpg);
+    width: 100%;
+    height: 540px;
+    background-size: cover;
+}
+
+.our-services {
+    color: white;
+    padding-top: 12%;
+    padding-left: 25%;
+    margin-bottom: 250px;
+}

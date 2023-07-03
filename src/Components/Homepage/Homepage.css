@@ -1,0 +1,382 @@
+.h-image {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/src/image/home.jpg);
+    width: 100%;
+    height: 540px;
+    background-size: cover;
+}
+
+.beskope {
+    color: white;
+    padding-top: 12%;
+}
+
+.beskope h1 {
+    font-size: 72px;
+    font-weight: 900;
+    font-family: initial;
+    width: 59%;
+    margin-bottom: 30px;
+}
+
+.beskope p {
+    font-size: 16px;
+    width: 59%;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.beskope button {
+    color: white;
+    background-color: #006CB6;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    transition: all 200ms linear;
+    border: none;
+}
+
+.beskope button:hover {
+    background-color: white;
+    color: #006CB6;
+}
+
+/* Section2 */
+
+.services {
+    margin-bottom: 290px;
+}
+
+.services h1 {
+    font-family: initial;
+    font-size: 72px;
+    line-height: 1.33;
+    font-weight: 900;
+    margin: 90px 0 50px;
+}
+
+.services-boxs {
+    display: flex;
+}
+
+.services-box {
+    position: relative;
+    margin-right: 30px;
+    width: 100%;
+    overflow: hidden;
+    /* cursor: pointer; */
+}
+
+.services-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.services-box-title h3 {
+    width: 100%;
+    padding-top: 10px;
+    color: #fff;
+}
+
+
+.services-box-title {
+    position: absolute;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    /* left: 7%; */
+    align-items: center;
+    text-align: start;
+    color: #006CB6;
+    opacity: 0;
+    transition: all 1s linear;
+    right: -20%;
+    background: #1f3d4765;
+    backdrop-filter: blur(5px);
+}
+
+.services-box-title .button {
+    background-color: #006CB6;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 140px;
+    border: none;
+    transition: all 300ms linear;
+    margin-left: 0;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.services-box-title button:hover {
+    background-color: white;
+    color: #006CB6;
+}
+
+.services-box:hover .services-box-title {
+    opacity: 1;
+    right: 0;
+}
+
+.services-box-title p {
+    font-size: 18px;
+}
+
+.services-box:hover {
+    color: #006CB6;
+}
+
+/* .services-icn {
+    cursor: pointer;
+} */
+
+/* Section3 */
+
+.aboutus {
+    display: flex;
+}
+
+.aboutus h3 {
+    font-size: 44px;
+}
+
+.aboutus span {
+    font-size: 55px;
+    color: rgb(157, 156, 156);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.aboutus-left {
+    background: #EBF7FF;
+    width: 50%;
+    height: 900px;
+
+}
+
+.abouts-title {
+    padding: 168px 56px 54px 142px;
+}
+
+.aboutus h1 {
+    font-size: 72px;
+    font-family: initial;
+    font-weight: 900;
+}
+
+.aboutus p {
+    width: 95%;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.aboutus .numbers {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.aboutus .number h4 {
+    display: flex;
+}
+
+.aboutus .numbers .number h4 {
+    color: #006CB6;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.aboutus button {
+    background-color: #006CB6;
+    color: white;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 140px;
+    border: none;
+}
+
+.abouts-right img {
+    width: 112%;
+    height: 900px;
+}
+
+/* Section3 */
+.careers {
+    display: flex;
+    margin-bottom: 90px;
+}
+
+.careers-left .careers-img img {
+    width: 844px;
+    height: 800px;
+}
+
+.careers-right {
+    width: 50%;
+    background-color: #EBF7FF;
+}
+
+.careers-right h1 {
+    font-family: initial;
+    font-weight: 900;
+    font-size: 72px;
+}
+
+.careers-right p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: initial;
+    width: 63%;
+}
+
+.careers-right-title {
+    margin-top: 100px;
+    margin-left: 32px;
+}
+
+.careers-right .careers-list {
+    width: 63%;
+    margin-bottom: 64px;
+}
+
+.careers-right .careers-list li {
+    cursor: pointer;
+    list-style: none;
+    padding: 32px 0;
+    border-bottom: 1px solid #E4E6EF;
+}
+
+.careers-right .careers-list li a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.careers-right .careers-list li span {
+    opacity: 0;
+    transition: all 300ms linear;
+    color: #006CB6;
+    margin-left: auto;
+    width: 20%;
+    margin-right: 15px;
+}
+
+.careers-right .careers-list li:hover span {
+    opacity: 1;
+}
+
+.careers-right button {
+    background-color: #006CB6;
+    color: white;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 32px;
+    border: none;
+}
+
+/* SECTION4 - BLOG */
+.blog-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.blog-title h1 {
+    font-size: 72px;
+    font-weight: 900;
+    font-family: initial;
+}
+
+.blog button {
+    color: #006CB6;
+    background-color: #EBF7FF;
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 300ms linear;
+}
+
+.blog button:hover {
+    background-color: #006CB6;
+    color: white;
+}
+
+.blog-boxs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 170px;
+}
+
+.blog-box {
+    display: flex;
+    background-color: #d3d3d33d;
+    width: 400px;
+    height: 215px;
+    padding: 20px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.blog-box img {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+/* SECTION5 - BUSINESS */
+
+.business {
+    margin-bottom: 90px;
+}
+
+.business-box {
+    height: 233px;
+    background-color: #D6EEFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px 95px;
+}
+
+.business-title {
+    width: 37%;
+}
+
+.business-title h3 {
+    font-family: initial;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+.business-title p {
+    font-family: initial;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #006CB6;
+}
+
+.business button {
+    background-color: #006CB6;
+    color: #EBF7FF;
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 600;
+}

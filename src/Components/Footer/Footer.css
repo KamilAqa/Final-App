@@ -1,0 +1,92 @@
+.footer-box {
+    position: relative;
+    background-color: #006CB6;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 70px;
+}
+
+.footer-address {
+    color: white;
+    font-family: initial;
+    width: 31%;
+}
+
+
+.address h4 {
+    margin-bottom: 15px;
+}
+
+.address p {
+    font-size: 18px;
+}
+
+.explore h4 {
+    color: white;
+    font-family: initial;
+    margin-bottom: 15px;
+}
+
+
+.explore ul {
+    padding-left: 0;
+}
+
+.explore ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.explore ul li a {
+    font-family: initial;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 200ms linear;
+}
+
+.explore ul li a:hover {
+    color: #D6EEFF;
+}
+
+
+.subscribe {
+    width: 31%;
+    color: white;
+    font-family: initial;
+    position: relative;
+}
+
+.subscribe input {
+    padding: 10px 120px 10px 10px;
+    text-align: start;
+    margin-bottom: 12px;
+}
+
+.subscribe button {
+    position: absolute;
+    color: #006CB6;
+    background-color: #D6EEFF;
+    border: none;
+    padding: 10.5px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: -40px;
+    top: 25.5%;
+    left: 52%;
+}
+
+.footer-end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #006CB6;
+    border-top: 1px solid #087FD0;
+    color: white;
+    padding: 10px 70px;
+}
+
+.contact .phone {
+    color: white;
+    text-decoration: none;
+}
