@@ -44,7 +44,7 @@
 /* Section2 */
 
 .services {
-    margin-bottom: 290px;
+    margin-bottom: 90px;
 }
 
 .services h1 {
@@ -127,35 +127,77 @@
     color: #006CB6;
 }
 
-/* .services-icn {
-    cursor: pointer;
-} */
 
 /* Section3 */
 
 .aboutus {
+    margin-bottom: 90px;
+}
+
+.abouts-box {
+    padding: 75px;
+    box-shadow: 0 7px 10px 0 rgb(0 0 0 / 14%);
+    text-align: center;
+}
+
+.abouts-box-img {
+    margin-bottom: 20px;
+}
+
+.abouts-box1 {
     display: flex;
+    margin-bottom: 90px;
+    gap: 20px;
+}
+
+.abouts-box1 .abouts-box {
+    width: 100%;
+}
+
+.abouts-box2 {
+    display: flex;
+    gap: 20px;
+}
+
+.abouts-box2 .abouts-box {
+    width: 50%;
+}
+
+.aboutus h2 {
+    font-style: 40px;
+    font-weight: bold;
 }
 
 .aboutus h3 {
-    font-size: 44px;
-}
-
-.aboutus span {
-    font-size: 55px;
+    font-size: 24px;
     color: rgb(157, 156, 156);
     font-weight: bold;
     margin-bottom: 15px;
 }
-.aboutus-left {
-    background: #EBF7FF;
-    width: 50%;
-    height: 900px;
 
+.button {
+    background-color: #006CB6;
+    color: white;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 140px;
+    border: none;
+    text-decoration: none;
+    transition: all 200ms linear;
+}
+
+.button:hover {
+    color: #006CB6;
+    background-color: #EBF7FF;
 }
 
 .abouts-title {
     padding: 168px 56px 54px 142px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .aboutus h1 {
@@ -190,15 +232,6 @@
     font-weight: 600;
 }
 
-.aboutus button {
-    background-color: #006CB6;
-    color: white;
-    padding: 15px 25px;
-    font-size: 18px;
-    font-weight: 600;
-    margin-left: 140px;
-    border: none;
-}
 
 .abouts-right img {
     width: 112%;

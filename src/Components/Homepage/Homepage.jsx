@@ -24,18 +24,11 @@ import Designimg from "../../image/design-img.jpg"
 import Daziymillar from "../../image/daziymillar.jpg"
 import Jonas from "../../image/jonas.jpg"
 import Maximilian from "../../image/Maximilan.jpg"
-
-
-
-function Number({ n }) {
-    const { number } = useSpring({
-        from: { number: 0 },
-        number: n,
-        delay: 200,
-        config: { mass: 1, tension: 20, friction: 10 },
-    });
-    return <animated.div>{number.to((n) => n.toFixed(0))}</animated.div>;
-}
+import Careerimg from "../../image/proqramlasdirma-kursu-1.png"
+import Practicalimg from "../../image/proqramlasdirma-kursu-2.png"
+import Mentorimg from "../../image/proqramlasdirma-kursu-3.png"
+import Internshipimg from "../../image/proqramlasdirma-kursu-4.png"
+import Bootcampimg from "../../image/proqramlasdirma-kursu-5.png"
 
 
 const Homepage = () => {
@@ -117,63 +110,69 @@ const Homepage = () => {
             </section>
 
             {/* SECTION3 */}
-            <section className="aboutus">
-                <div className="aboutus-left">
-                    <div className="abouts-title">
-                        {/* <h1>Haqqımızda</h1> */}
-                        <h3>niyə</h3>
-                        <span>King Academy?</span>
-                        <p>We support construction companies to achieve their objectives utilizing business development, financial, and project management tools. While our background lets us grasp the essence of the industry in-depth, we comprehend the significance of time and money for successful project implementation. Thus, our solutions are swift and tailored for your needs.</p>
+            <section className="aboutus container">
+                <div className="abouts-title">
+                    <div className="abouts-titlee">
+                        <h2>niyə biz?</h2>
                     </div>
-                    <div className="numbers">
-                        <div className="number">
-                            <h4>
-                                <Number n={750} />+
-                            </h4>
-                            <p>Tələbə</p>
-                        </div>
-                        <div className="number">
-                            <h4><Number n={450} />+
-                            </h4>
-                            <p>Real Layihə</p>
-                        </div>
-                        <div className="number">
-                            <h4><Number n={40} />+
-                            </h4>
-                            <p>Bağlantı</p>
-                        </div>
-                    </div>
-                    <button>Daha çox <BsArrowRight /></button>
+                    <Link className="button" to="/about"> Daha çox <BsArrowRight /></Link>
                 </div>
-                <div className="abouts-right">
-                    <img src="https://efcgroup.com/images/cache/19/197c0c_about-home.jpg" alt="" />
+                <div className="abouts-boxs">
+                    <div className="abouts-box1">
+
+                        {/* BOX1 */}
+                        <div className="abouts-box">
+                            <div className="abouts-box-img">
+                                <img src={Careerimg} alt="" />
+                            </div>
+                            <div className="abouts-box-title">
+                                <h3>Karyera Mərkəzi</h3>
+                            </div>
+                        </div>
+                        {/* BOX2 */}
+                        <div className="abouts-box">
+                            <div className="abouts-box-img">
+                                <img src={Practicalimg} alt="" />
+                            </div>
+                            <div className="abouts-box-title">
+                                <h3>Hər gün praktik məşq</h3>
+                            </div>
+                        </div>
+                        {/* BOX3 */}
+                        <div className="abouts-box">
+                            <div className="abouts-box-img">
+                                <img src={Mentorimg} alt="" />
+                            </div>
+                            <div className="abouts-box-title">
+                                <h3>Mentor dəstəyi</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="abouts-box2">
+                        {/* BOX4 */}
+                        <div className="abouts-box">
+                            <div className="abouts-box-img">
+                                <img src={Internshipimg} alt="" />
+                            </div>
+                            <div className="abouts-box-title">
+                                <h3>Təcrübələrə qəbul</h3>
+                            </div>
+                        </div>
+                        {/* BOX5 */}
+                        <div className="abouts-box">
+                            <div className="abouts-box-img">
+                                <img src={Bootcampimg} alt="" />
+                            </div>
+                            <div className="abouts-box-title">
+                                <h3>Boot Camp sistemi</h3>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
+
 
             {/* SECTION3 */}
-            <section className="careers">
-                <div className="careers-left">
-                    <div className="careers-img">
-                        <img src="https://efcgroup.com/images/cache/ce/ce02a9_career-home.jpg" alt="" />
-                    </div>
-                </div>
-                <div className="careers-right">
-                    <div className="careers-right-title">
-                        <h1>Karyera</h1>
-                        <p>We are always looking for highly skilled, committed, and enthusiastic people to join our team.</p>
-                    </div>
-
-                    <ul className="careers-list">
-                        <li><Link to="">Lead Specialist / Business Development Department <span>Read more</span> <BsArrowRight />
-                        </Link></li>
-                        <li><Link to="">Head of Technical Office <span>Read more</span> <BsArrowRight /> </Link></li>
-                        <li><Link to="">Lead Project Control Engineer <span>Read more</span> <BsArrowRight /> </Link></li>
-                    </ul>
-                    <button>All vacancies <span><BsArrowRight /></span></button>
-                </div>
-            </section>
-
-            {/* SECTION4 */}
             <section className="blog container">
                 <div className="blog-title">
                     <h1>Müəllimlərimiz</h1>
@@ -209,7 +208,7 @@ const Homepage = () => {
                     </div>
                 </div>
             </section>
-            {/* SECTION5 - BUSINESS */}
+            {/* SECTION4 - BUSINESS */}
             <section className="business container">
                 <div className="business-box container">
                     <div className="business-title">
@@ -217,7 +216,7 @@ const Homepage = () => {
                         <p>Tədris sahəsinin seçimi ilə bağlı çətinlik çəkirsinizsə, pulsuz konsultasiya xidmətimizdən istifadə edin. Biz sizə doğru seçim etməkdə yardımçı olacayıq</p>
                     </div>
                     {/* <img src={} alt="" /> */}
-                    <Link to="/contact"><button>Əlaqə<BsArrowRight /></button></Link>
+                    <Link className="button" to="/contact">Əlaqə<BsArrowRight /></Link>
 
                 </div>
             </section>

@@ -31,7 +31,7 @@ const Footer = () => {
                     <h4>Akademiya</h4>
                     <ul>
                         <li><Link to="/about">Haqqımızda</Link></li>
-                        <li><Link to="/services">Tədris proqramları</Link></li>
+                        <li><Link to="/education">Tədris proqramları</Link></li>
                         <li><Link to="/contact">Əlaqə</Link></li>
                     </ul>
                 </div>

@@ -5,11 +5,26 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 // import design from "../../image/pngwing.com.png";
 
-// Router
+// Route
 // import { Link } from "react-router-dom";
+import { useSpring, animated } from "react-spring";
+
 
 // Icons
 import { BsArrowRight } from "react-icons/bs";
+
+
+
+
+function Number({ n }) {
+    const { number } = useSpring({
+        from: { number: 0 },
+        number: n,
+        delay: 200,
+        config: { mass: 1, tension: 20, friction: 10 },
+    });
+    return <animated.div>{number.to((n) => n.toFixed(0))}</animated.div>;
+}
 
 
 const Aboutpage = () => {
@@ -28,6 +43,24 @@ const Aboutpage = () => {
                         <h3>niyə</h3>
                         <h1>King Academy?</h1>
                         <p>We are a group of professionals who gathered to tailor solutions to niche problems in the construction industry. Based in Dubai, UAE, and Headquartered in Baku, Azerbaijan, we work with 260+ companies in 40+ countries. We assist our clients in projects financed by Multilateral Development Banks (MDBs). With a team of engineers, bankers, and business analysts, we specialize in three main directions: business development, financial support, and project management.</p>
+                    </div>
+                    <div className="numbers">
+                        <div className="number">
+                            <h4>
+                                <Number n={750} />+
+                            </h4>
+                            <p>Məzun</p>
+                        </div>
+                        <div className="number">
+                            <h4><Number n={450} />+
+                            </h4>
+                            <p>Real Layihə</p>
+                        </div>
+                        <div className="number">
+                            <h4><Number n={40} />+
+                            </h4>
+                            <p>Bağlantı</p>
+                        </div>
                     </div>
                 </section>
                 {/* <section className="aboutus">
@@ -77,7 +110,7 @@ const Aboutpage = () => {
                     </div>
                 </section>
                 <Footer />
-            </div> 
+            </div>
         </>
     )
 }
