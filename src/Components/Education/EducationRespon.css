@@ -1,0 +1,183 @@
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+    .education-image {
+        height: 500px;
+    }
+
+    .frntdv-title {
+        padding: 50px 0;
+    }
+
+    /* Backend */
+
+    .bckndv-title {
+        padding: 50px 0;
+    }
+}
+
+/* 425 */
+@media only screen and (max-width: 425px) and (min-width: 376px) {
+    .education-image {
+        height: 450px;
+    }
+
+    .education h1 {
+        font-size: 40px;
+    }
+
+    .education p {
+        width: 100%;
+    }
+
+    .frntdv {
+        padding: 75px 50px 0;
+    }
+
+    .frntdv h1 {
+        font-size: 23px;
+        margin-bottom: 40px;
+    }
+
+    .frntdv-title {
+        padding: 50px 0;
+    }
+
+    .frntdv p {
+        font-size: 16px;
+    }
+
+    .bckndv {
+        margin-bottom: 0;
+    }
+
+    .bckndv h1 {
+        font-size: 23px;
+    }
+
+    .bckndv p {
+        font-size: 16px;
+    }
+
+    .dizayn h1 {
+        font-size: 23px;
+    }
+
+    .dizayn h3 {
+        font-size: 20px;
+    }
+
+    .dizayn p {
+        font-size: 16px;
+    }
+}
+
+/* 375 */
+@media only screen and (max-width: 375px) and (min-width: 321px) {
+    .education-image {
+        height: 400px;
+    }
+
+    .education h1 {
+        font-size: 40px;
+    }
+
+    .education p {
+        width: 100%;
+    }
+
+    .frntdv {
+        padding: 75px 50px 0;
+    }
+
+    .frntdv h1 {
+        font-size: 23px;
+        margin-bottom: 40px;
+    }
+
+    .frntdv-title {
+        padding: 50px 0;
+    }
+
+    .frntdv p {
+        font-size: 16px;
+    }
+
+    .bckndv {
+        margin-bottom: 0;
+    }
+
+    .bckndv h1 {
+        font-size: 23px;
+    }
+
+    .bckndv p {
+        font-size: 16px;
+    }
+
+    .dizayn h1 {
+        font-size: 23px;
+    }
+
+    .dizayn h3 {
+        font-size: 20px;
+    }
+
+    .dizayn p {
+        font-size: 16px;
+    }
+}
+
+/* 320 */
+@media only screen and (max-width: 320px) and (min-width: 280px) {
+    .education-image {
+        height: 400px;
+    }
+
+    .education h1 {
+        font-size: 40px;
+    }
+
+    .education p {
+        width: 100%;
+    }
+
+    .frntdv {
+        padding: 75px 50px 0;
+    }
+
+    .frntdv h1 {
+        font-size: 23px;
+        margin-bottom: 40px;
+    }
+
+    .frntdv-title {
+        padding: 50px 0;
+    }
+
+    .frntdv p {
+        font-size: 16px;
+    }
+
+    .bckndv {
+        margin-bottom: 0;
+    }
+
+    .bckndv h1 {
+        font-size: 23px;
+    }
+
+    .bckndv p {
+        font-size: 16px;
+    }
+
+    .dizayn h1 {
+        font-size: 23px;
+    }
+
+    .dizayn h3 {
+        font-size: 20px;
+    }
+
+    .dizayn p {
+        font-size: 16px;
+    }
+}

@@ -1,22 +1,17 @@
-import "./Education.css"
+import "./Education.css";
+import "./EducationRespon.css";
 
 
 //Components
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 
-// Router
-import { Link } from "react-router-dom/cjs/react-router-dom.min";
-
-// Image
-import Bckndv from "../../image/bckndv.jpg"
-import Frntdv from "../../image/frntdv.jpg"
 
 
 const Education = () => {
     return (
         <>
-            <Header />
+            {/* <Header /> */}
             <div className="education-image">
                 <div className="overlay"></div>
                 <section className="education container">
@@ -86,7 +81,7 @@ const Education = () => {
                 </div>
             </section>
 
-            <Footer />
+            {/* <Footer /> */}
         </>
     )
 }

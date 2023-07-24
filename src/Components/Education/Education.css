@@ -11,12 +11,11 @@
     margin-bottom: 190px;
 }
 
-
 .education h1 {
     font-size: 72px;
     font-weight: 900;
     font-family: initial;
-    width: 59%;
+    /* width: 59%; */
     margin-bottom: 30px;
 }
 
@@ -38,7 +37,6 @@
     border: none;
 }
 
-
 .frntdv {
     font-size: 18px;
     padding: 75px 50px;
@@ -55,7 +53,10 @@
 }
 
 .frntdv-title {
-    padding: 50px 0 20px 70px;
+    padding: 50px 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .frntdv h1 {
@@ -94,7 +95,10 @@
 
 
 .bckndv-title {
-    padding: 50px 0 20px 70px;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .bckndv-title h4 {
@@ -135,7 +139,10 @@
 
 
 .dizayn-title {
-    padding: 50px 0 20px 70px;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .dizayn-title h4 {
@@ -155,7 +162,9 @@
 }
 
 .dizayn-about {
-    padding-left: 133px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .dizayn p {
