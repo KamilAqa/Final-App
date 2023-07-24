@@ -23,9 +23,6 @@ function App() {
       <Route exact path="/education">
         <Education />
       </Route>
-      {/* <Route path="/services">
-        <Services />
-      </Route> */}
       <Route path="/contact">
         <Contact />
       </Route>

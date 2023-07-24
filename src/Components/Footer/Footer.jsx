@@ -1,4 +1,5 @@
-import "./Footer.css"
+import "./Footer.css";
+import "./footerrespon.css"
 
 
 // Link
@@ -14,7 +15,9 @@ const Footer = () => {
             <div className="footer-box">
 
                 <div className="footer-logo">
-                    <img className="logo" src="https://efcgroup.com/assets/images/logo.svg" alt="" />
+                    <Link className="logo" to="/"><h1>King Academy</h1></Link>
+
+                    {/* <img className="logo" src="https://efcgroup.com/assets/images/logo.svg" alt="" /> */}
                 </div>
                 <div className="footer-address">
                     <div className="address">
@@ -43,7 +46,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="footer-end">
-                <p>© 2023 King Education. Bütün hüquqlar qorunur</p>
+                <p>© 2023 King Academy. Bütün hüquqlar qorunur</p>
                 <Link to=""><FaLinkedinIn color="white" /></Link>
 
             </div>

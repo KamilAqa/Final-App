@@ -12,6 +12,10 @@
     width: 31%;
 }
 
+.footer-logo .logo {
+    text-decoration: none;
+    color: white;
+}
 
 .address h4 {
     margin-bottom: 15px;

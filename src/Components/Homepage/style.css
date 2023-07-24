@@ -1,0 +1,643 @@
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+    .beskope h1 {
+        font-size: 65px;
+    }
+
+    .blog-box {
+        height: 215px;
+    }
+
+    .blog-boxs {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin-bottom: 170px;
+    }
+
+    .blog-box img {
+        margin-right: 14px;
+    }
+
+    .blog-title h1 {
+        font-size: 68px;
+    }
+
+    .blog-box h3 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .blog-box span {
+        font-size: 14px;
+    }
+
+    .blog-box p {
+        font-size: 15px;
+    }
+
+    /* Business */
+    .business-title {
+        width: 56%;
+    }
+
+    .business-title h3 {
+        font-size: 22px;
+    }
+
+    .abouts-box {
+        padding: 35px;
+    }
+
+    .business-box {
+        padding: 51px;
+    }
+
+    .services-icn {
+        display: flex;
+    }
+
+    .services-box {
+        padding: 10px;
+    }
+
+    .services-boxs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .services-box-title {
+        padding: 10px;
+        text-align: start;
+        width: 94.3%;
+        height: 91%;
+    }
+
+    .services-box-title h3 {
+        font-size: 20px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .services-box-title p {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .services-box:hover .services-box-title {
+        right: 10px;
+    }
+}
+
+/* 768 */
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+    header {
+        display: none;
+    }
+    
+    .h-image {
+        height: 400px;
+    }
+
+    .beskope h1 {
+        font-size: 52px;
+        width: 100%;
+    }
+
+    .beskope p {
+        width: 100%;
+    }
+
+    .services {
+        margin-bottom: 60px;
+    }
+
+    .services h1 {
+        font-size: 40px;
+    }
+
+    .services-icn {
+        display: flex;
+    }
+
+    .services-boxs {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .services-box-title {
+        padding: 10px;
+        text-align: start;
+    }
+
+    .services-box-title h3 {
+        font-size: 18px;
+        padding-top: 10px;
+        padding-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .services-box-title p {
+        width: 100%;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .services-box:hover .services-box-title {
+        right: 0;
+    }
+
+    .services-box {
+        margin-right: 10px;
+    }
+
+    .services-box-title .button {
+        padding: 5px 10px;
+        font-size: 16px;
+    }
+
+    /* abouts */
+    .abouts-box {
+        padding: 25px;
+    }
+
+    .abouts-box-img img {
+        width: 40px;
+    }
+
+    .abouts-box-title h3 {
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+
+    .abouts-box1 {
+        margin-bottom: 50px;
+    }
+
+    .aboutus .button svg {
+        display: none;
+    }
+
+    .blog-title h1 {
+        font-size: 45px;
+    }
+
+    .blog-boxs {
+        grid-template-columns: repeat(2, 350px);
+        margin-bottom: 120px;
+        padding: 0;
+    }
+
+    .blog-box:hover {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+
+    .blog-box h3 {
+        font-size: 20px;
+    }
+
+    /* Business */
+    .business {
+        padding: 0 50px 0 23px;
+    }
+
+    .business-box {
+        width: 105%;
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .business-title {
+        width: 100%;
+    }
+
+    .business-title h3 {
+        font-size: 20px;
+    }
+
+    .business-title p {
+        font-size: 14px;
+    }
+
+    .business .button {
+        padding: 10px 20px;
+        font-size: 16px;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 425px) and (min-width: 376px) {
+    .beskope h1 {
+        font-size: 46px;
+        width: 100%;
+    }
+
+    .beskope p {
+        width: 100%;
+    }
+
+    .services {
+        margin-bottom: 40px;
+    }
+
+    .services h1 {
+        font-size: 36px;
+    }
+
+    .services-icn {
+        display: flex;
+    }
+
+    .services-boxs {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .services-box-title {
+        padding: 10px;
+    }
+
+    .services-box-title h3 {
+        font-size: 18px;
+        padding-left: 20px;
+    }
+
+    .services-box-title p {
+        width: 100%;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .services-box {
+        margin-right: 10px;
+    }
+
+    .services-box-title .button {
+        padding: 5px 10px;
+        font-size: 16px;
+    }
+
+    /* abouts */
+
+    .abouts-box {
+        padding: 25px;
+    }
+
+    .abouts-box-img img {
+        width: 40px;
+    }
+
+    .abouts-box-title h3 {
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+
+    .abouts-box1 {
+        margin-bottom: 50px;
+    }
+
+    .aboutus .button svg {
+        display: none;
+    }
+
+    /* blog-box */
+    .blog-title h1 {
+        font-size: 45px;
+    }
+
+    .blog-boxs {
+        grid-template-columns: repeat(1, 350px);
+        margin-bottom: 120px;
+        padding: 0;
+    }
+
+    .blog-box:hover {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+
+    .blog-box h3 {
+        font-size: 20px;
+    }
+
+    /* Business */
+    .business {
+        padding: 0 50px 0 23px;
+    }
+
+    .business-box {
+        width: 110%;
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .business-title {
+        width: 100%;
+    }
+
+    .business-title h3 {
+        font-size: 20px;
+    }
+
+    .business-title p {
+        font-size: 14px;
+    }
+
+    .business .button {
+        padding: 10px 20px;
+        font-size: 16px;
+        margin-left: 0;
+    }
+}
+
+/* 375 */
+@media only screen and (max-width: 376px) and (min-width: 321px) {
+    .h-image {
+        height: 400px;
+    }
+    .beskope h1 {
+        font-size: 41px;
+        width: 100%;
+    }
+
+    .beskope p {
+        width: 100%;
+    }
+
+    .services {
+        margin-bottom: 40px;
+    }
+
+    .services h1 {
+        font-size: 36px;
+    }
+
+    .services-icn {
+        display: flex;
+    }
+
+    .services-boxs {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .services-box-title {
+        padding: 5px;
+    }
+
+    .services-box-title h3 {
+        font-size: 18px;
+        padding-left: 20px;
+    }
+
+    .services-box-title p {
+        width: 100%;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .services-box {
+        margin-right: 10px;
+    }
+
+    .services-box-title .button {
+        padding: 5px 10px;
+        font-size: 16px;
+    }
+
+    /* abouts */
+
+    .abouts-box {
+        padding: 25px;
+    }
+
+    .abouts-boxs {
+        padding: 0 40px;
+    }
+
+    .abouts-box-img img {
+        width: 35px;
+    }
+
+    .abouts-title {
+        padding: 50px;
+    }
+
+    .aboutus .button {
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+
+    .abouts-titlee h2 {
+        font-size: 20px;
+    }
+
+    .abouts-box-title h3 {
+        font-size: 9px;
+        margin-bottom: 0;
+    }
+
+    .abouts-box1 {
+        margin-bottom: 50px;
+    }
+
+    .blog-title h1 {
+        font-size: 45px;
+    }
+
+    .blog-boxs {
+        grid-template-columns: repeat(1, 350px);
+        margin-bottom: 120px;
+        padding: 0;
+    }
+
+    .blog-box:hover {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+
+    .blog-box h3 {
+        font-size: 20px;
+    }
+
+    /* Business */
+    .business-box {
+        width: 110%;
+        padding: 5px 15px;
+        flex-direction: column;
+    }
+
+    .business-title {
+        width: 100%;
+    }
+
+    .business-title h3 {
+        font-size: 18px;
+    }
+
+    .business-title p {
+        font-size: 14px;
+    }
+
+    .business .button {
+        font-size: 14px;
+        margin-left: 0;
+        padding: 10px 15px;
+    }
+}
+
+/* 320 */
+@media only screen and (max-width: 320px) and (min-width: 280px) {
+    .h-image {
+        height: 400px;
+    }
+
+    .beskope h1 {
+        font-size: 34px;
+        width: 100%;
+    }
+
+    .beskope p {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .services {
+        margin-bottom: 40px;
+    }
+
+    .services h1 {
+        font-size: 31px;
+    }
+
+    .services-icn {
+        display: flex;
+    }
+
+    .services-boxs {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .services-box-title {
+        padding: 5px;
+    }
+
+    .services-box-title h3 {
+        font-size: 16px;
+        padding-left: 20px;
+    }
+
+    .services-box-title p {
+        display: none;
+    }
+
+    .services-icn {
+        margin-bottom: 17px;
+    }
+
+    .services-box {
+        margin-right: 10px;
+    }
+
+    .services-box-title .button {
+        padding: 5px 10px;
+        font-size: 16px;
+    }
+
+    /* abouts */
+
+    .abouts-box {
+        padding: 20px;
+    }
+
+    .abouts-boxs {
+        padding: 0 40px;
+    }
+
+    .abouts-box-img img {
+        width: 35px;
+    }
+
+    .abouts-title {
+        padding: 50px;
+    }
+
+    .aboutus .button {
+        padding: 5px 15px;
+        font-size: 12px;
+    }
+
+    .aboutus .button svg {
+        display: none;
+    }
+
+    .abouts-titlee h2 {
+        font-size: 20px;
+    }
+
+    .abouts-box-title h3 {
+        font-size: 9px;
+        margin-bottom: 0;
+    }
+
+    .abouts-box1 {
+        margin-bottom: 50px;
+    }
+
+    /* blog-box */
+    .blog-title h1 {
+        font-size: 31px;
+    }
+
+    .blog-box img {
+        width: 35%;
+        height: 35%;
+    }
+
+    .blog-box p {
+        font-size: 16px;
+    }
+
+    .blog-boxs {
+        grid-template-columns: repeat(1, 300px);
+        margin-bottom: 120px;
+        padding: 0;
+    }
+
+    .blog-box:hover {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+
+    .blog-box h3 {
+        font-size: 20px;
+    }
+
+    /* Business */
+    .business {
+        padding: 0 36px 0 14px;
+    }
+
+    .business-box {
+        width: 110%;
+        padding: 5px 15px;
+        flex-direction: column;
+    }
+
+    .business-title {
+        width: 100%;
+    }
+
+    .business-title h3 {
+        font-size: 18px;
+    }
+
+    .business-title p {
+        font-size: 14px;
+    }
+
+    .business .button {
+        font-size: 14px;
+        margin-left: 0;
+        padding: 10px 15px;
+    }
+}

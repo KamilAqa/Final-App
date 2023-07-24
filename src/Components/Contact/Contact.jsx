@@ -3,8 +3,37 @@ import "./Contact.css";
 // Components
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import React, { useState, useRef } from "react";
+
+
+// style import
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
+
+    const [firstName, setFirstname] = useState("");
+    const [mail, setMail] = useState("");
+    const [phone, setPhone] = useState("");
+    const [text, setText] = useState("");
+    const fname = useRef("");
+    const email = useRef("");
+    const number = useRef("");
+    const texts = useRef("");
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        fname.current.value = "";
+        email.current.value = "";
+        number.current.value = "";
+        texts.current.value = "";
+        // setFirstname("");
+    }
+
+    const addToast = () => {
+        toast.success("Successfull");
+    }
+
     return (
         <>
             <Header />
@@ -16,13 +45,15 @@ const Contact = () => {
                 </section>
                 <section className="contact-us-form container">
                     <h1>Zəhmət olmasa, formu doldurun.</h1>
-                    <form action="" className="d-flex">
-                        <input type="name" id="name" name="name" placeholder="Ad Soyad" />
-                        <input type="email" id="email" name="email" placeholder="E-mail" />
-                        <input type="phone" id="phone" name="phone" placeholder="Nömrə" />
+                    <form onSubmit={handleSubmit} className="d-flex">
+                        <input type="name" id="name" ref={fname} name="firstName" value={firstName} onChange={(e) => setFirstname(e.target.value)} placeholder="Ad Soyad" />
+                        <input type="email" ref={email} id="email" name="email" value={mail} onChange={(e) => setMail(e.target.value)} placeholder="E-mail" />
+                        <input type="phone" ref={number} id="phone" name="phone" value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="Nömrə" />
+                        <button onClick={addToast} className="contact-button">Müraciət et
+                        </button>
+                        <ToastContainer />
                     </form>
-                    <textarea name="text" id="text" cols="30" rows="10" className="w-100 mb-4" placeholder="Sualınızı qeyd edin"></textarea>
-                    <button>Müraciət et</button>
+                    <textarea name="text" ref={texts} id="text" cols="30" rows="10" className="w-100 mb-4" value={text} onChange={(e) => setText(e.target.value)} placeholder="Sualınızı qeyd edin"></textarea>
                 </section>
                 <section className="contact-us-info">
                     <div className="">

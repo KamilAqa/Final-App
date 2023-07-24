@@ -1,4 +1,5 @@
 import "./Homepage.css";
+import "./style.css";
 
 // Icons
 import { SiXdadevelopers } from "react-icons/si";
@@ -9,13 +10,13 @@ import { BsArrowRight } from "react-icons/bs";
 // Route
 import { Link } from "react-router-dom";
 import { Route } from "react-router-dom/cjs/react-router-dom.min";
-import { useSpring, animated } from "react-spring";
-import React, { useState } from "react";
+// import { useSpring, animated } from "react-spring";
+// import React, { useState } from "react";
 
 // Components
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
-import data from "../../store/data"
+// import data from "../../store/data"
 
 // Image
 import Frontendimg from "../../image/frontend-img.jpg"
@@ -34,19 +35,19 @@ import Bootcampimg from "../../image/proqramlasdirma-kursu-5.png"
 const Homepage = () => {
 
 
-    const [modal, setModal] = useState(false);
+    // const [modal, setModal] = useState(false);
 
-    const toggleModal = () => {
-        setModal(!modal)
-    }
+    // const toggleModal = () => {
+    //     setModal(!modal)
+    // }
 
     return (
-        <>
-            <Header />
+        <div className="home-respon">
+            {/* <Header /> */}
             <div className="h-image">
                 <div className="overlay"></div>
-                <section className="beskope container">
-                    <h1>King Education</h1>
+                <section className="beskope">
+                    <h1>King Academy</h1>
                     <p>We are a team of professionals that assists contractors and other stakeholders in acquiring bank guarantees, providing Joint Venture solutions, mitigating project risks, finding suitable projects, expanding to new markets, and financing projects.
                     </p>
                     {/* <button>Our services</button> */}
@@ -55,7 +56,7 @@ const Homepage = () => {
 
             {/* SECTION2 */}
 
-            <section className="services container text-center">
+            <section className="services text-center">
                 <h1>Tədris Proqramları</h1>
                 <div className="services-boxs">
                     <div className="services-box">
@@ -63,9 +64,9 @@ const Homepage = () => {
                         <div className="services-box-title">
                             <div className="services-icn">
                                 <SiXdadevelopers size="54px" />
+                                <h3>Front-end</h3>
                             </div>
                             <div>
-                                <h3>Front-end</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                                 <Link className="button" to="/education">Daha çox</Link >
                             </div>
@@ -79,9 +80,9 @@ const Homepage = () => {
                         <div className="services-box-title">
                             <div className="services-icn">
                                 <SiTryhackme size="54px" />
+                                <h3>Back-end</h3>
                             </div>
                             <div>
-                                <h3>Back-end</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                                 <Link className="button" to="/education">Daha çox</Link >
                             </div>
@@ -95,9 +96,9 @@ const Homepage = () => {
                         <div className="services-box-title">
                             <div className="services-icn">
                                 <CgDesignmodo size="54px" />
+                                <h3>Dizayn</h3>
                             </div>
                             <div>
-                                <h3>Dizayn</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                                 <Link className="button" to="/education">Daha çox</Link >
                             </div>
@@ -110,7 +111,7 @@ const Homepage = () => {
             </section>
 
             {/* SECTION3 */}
-            <section className="aboutus container">
+            <section className="aboutus">
                 <div className="abouts-title">
                     <div className="abouts-titlee">
                         <h2>niyə biz?</h2>
@@ -173,7 +174,7 @@ const Homepage = () => {
 
 
             {/* SECTION3 */}
-            <section className="blog container">
+            <section className="blog">
                 <div className="blog-title">
                     <h1>Müəllimlərimiz</h1>
                     {/* <button>Daha çox <span><BsArrowRight /></span></button> */}
@@ -209,8 +210,8 @@ const Homepage = () => {
                 </div>
             </section>
             {/* SECTION4 - BUSINESS */}
-            <section className="business container">
-                <div className="business-box container">
+            <section className="business">
+                <div className="business-box">
                     <div className="business-title">
                         <h3>Pulsuz Konsultasiya</h3>
                         <p>Tədris sahəsinin seçimi ilə bağlı çətinlik çəkirsinizsə, pulsuz konsultasiya xidmətimizdən istifadə edin. Biz sizə doğru seçim etməkdə yardımçı olacayıq</p>
@@ -221,9 +222,9 @@ const Homepage = () => {
                 </div>
             </section>
             <Route>
-                <Footer />
+                {/* <Footer /> */}
             </Route>
-        </>
+        </div>
     )
 }
 

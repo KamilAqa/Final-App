@@ -1,6 +1,5 @@
-/* .body {
-    background-image: url(/src/image/home.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 80vh;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+.body {
+    font-family: 'Caprasimo', cursive;
+}

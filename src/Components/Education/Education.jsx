@@ -41,25 +41,49 @@ const Education = () => {
                 </div>
 
                 {/* Backend */}
-                    <div className="bckndv">
-                        <div className="bckndv-title">
-                            <h1>Back-end Developer</h1>
-                            <p > C# proqramlaşdırma dili dünyanın Top 5 ən populyar proqramlaşdırma dillərindən biridir.
-                                Back-End C# /.NET proqramçılara bütün dünyada tələbat çox yüksəkdir, siz də Microsoft
-                                C# üzrə mütəxəssis olun və hər zaman axtarılan, yüksək qazanclı bir peşəyə sahib olacaqsınız.
-                                Bu sahədə təcrübə topladıqan sonra siz dünyanın istənilən nöqtəsindən distant olaraq
-                                istədiyiniz şirkət/şirkətlər ilə çalışa biləcəksiniz. Sərbəst rejim ilə çalışaraq yüksək
-                                əmək haqqı alacaqsınız və bundan əlavə olaraq öz layihələrinizin üzərində də çalışa biləcəksiniz.
-                                <br />
+                <div className="bckndv">
+                    <div className="bckndv-title">
+                        <h1>Back-end Developer</h1>
+                        <p > C# proqramlaşdırma dili dünyanın Top 5 ən populyar proqramlaşdırma dillərindən biridir.
+                            Back-End C# /.NET proqramçılara bütün dünyada tələbat çox yüksəkdir, siz də Microsoft
+                            C# üzrə mütəxəssis olun və hər zaman axtarılan, yüksək qazanclı bir peşəyə sahib olacaqsınız.
+                            Bu sahədə təcrübə topladıqan sonra siz dünyanın istənilən nöqtəsindən distant olaraq
+                            istədiyiniz şirkət/şirkətlər ilə çalışa biləcəksiniz. Sərbəst rejim ilə çalışaraq yüksək
+                            əmək haqqı alacaqsınız və bundan əlavə olaraq öz layihələrinizin üzərində də çalışa biləcəksiniz.
+                            <br />
 
-                                Bu texnologiyalara əlavə olaraq, Git, CVN və CVS kimi versiyaya nəzarətdə təcrübəli
-                                olması və Linux əsaslı əməliyyat sistemlərindən
-                                istifadə edə bilməsi back-end tərtibatçıları üçün əhəmiyyətli bir artıdır.
-                                <br />
-                                Bəzi insanlar hər iki tərəfi inkişaf etdirməkdə bacarıqlı ola bilərlər.
-                                Bu tip inkişaf etdirən insanlar "Full-Stack Developer" adlanır.</p>
-                        </div>
+                            Bu texnologiyalara əlavə olaraq, Git, CVN və CVS kimi versiyaya nəzarətdə təcrübəli
+                            olması və Linux əsaslı əməliyyat sistemlərindən
+                            istifadə edə bilməsi back-end tərtibatçıları üçün əhəmiyyətli bir artıdır.
+                            <br />
+                            Bəzi insanlar hər iki tərəfi inkişaf etdirməkdə bacarıqlı ola bilərlər.
+                            Bu tip inkişaf etdirən insanlar "Full-Stack Developer" adlanır.</p>
                     </div>
+                </div>
+                <div className="dizayn">
+                    <div className="dizayn-title">
+                        <h1>Dizayn</h1>
+                        <h3>Nələri öyrənəcəksiniz</h3>
+                        <div className="dizayn-about">
+                            <p> <strong>Gözəl reklamlar yaratmağı</strong>
+                                <br />
+                                Rastr və vektor qrafikasının istifadəsi ilə çöl və daxili reklamların hazırlanması
+                            </p>
+                            <p> <strong>Şirkət üslubunun tərtib olunması
+                            </strong>
+                                <br />
+                                Korporativ üslubun, brendbukun, "guideline"-ların və hətta brend
+                                personajlarının yaradılması
+                            </p>
+                            <p> <strong>Foto və video çəkilişlərin aparılması</strong>
+                                <br />
+                                İstənilən məqsədə uyğun peşəkar foto və video sessiyaların
+                                həyata keçirilməsi; retouch və çəkilmiş materialların işlənilməsi.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
             </section>
 
             <Footer />

@@ -1,0 +1,13 @@
+@media only screen and (max-width: 1441px) and (min-width: 400px) {
+    .subscribe button {
+        left: 61.6%;
+    }
+}
+
+@media only screen and (max-width: 1281px) and (min-width: 800px) {
+
+    .footer {
+        max-width: 1280px;
+    }
+
+}

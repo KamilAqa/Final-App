@@ -52,6 +52,8 @@
 }
 
 .contact-us-form button {
+    position: absolute;
+    top: 380px;
     color: white;
     background-color: #006CB6;
     border-radius: 5px;
@@ -65,4 +67,8 @@
 .contact-us-form button:hover {
     color: #006CB6;
     background-color: #D6EEFF;
+}
+
+.d-flex {
+    position: relative;
 }
