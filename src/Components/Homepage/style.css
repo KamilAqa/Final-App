@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
     .beskope h1 {
-        font-size: 65px;
+        font-size: 61px;
     }
 
     .blog-box {
@@ -91,14 +91,15 @@
     header {
         display: none;
     }
-    
+
     .h-image {
         height: 400px;
     }
 
     .beskope h1 {
-        font-size: 52px;
+        font-size: 49px;
         width: 100%;
+        padding-top: 40px;
     }
 
     .beskope p {
@@ -226,8 +227,9 @@
 
 @media only screen and (max-width: 425px) and (min-width: 376px) {
     .beskope h1 {
-        font-size: 46px;
+        font-size: 41px;
         width: 100%;
+        padding-top: 40px;
     }
 
     .beskope p {
@@ -353,9 +355,11 @@
     .h-image {
         height: 400px;
     }
+
     .beskope h1 {
-        font-size: 41px;
+        font-size: 39px;
         width: 100%;
+        padding-top: 40px;
     }
 
     .beskope p {
@@ -491,8 +495,9 @@
     }
 
     .beskope h1 {
-        font-size: 34px;
+        font-size: 33px;
         width: 100%;
+        padding-top: 40px;
     }
 
     .beskope p {

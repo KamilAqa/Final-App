@@ -6,19 +6,34 @@ header {
     width: 85%;
     display: flex;
     position: absolute;
-    left: 11.5%;
+    left: 8%;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
     margin-bottom: 90px;
 }
 
+.header-respon a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown {
+    display: none;
+}
+
+.dropdown-menu {
+    transform: translate(0, 40px 0);
+}
+
 header .header-logo {
     text-decoration: none;
     color: white;
 }
+
 header .header-logo h1 {
     font-size: 40px;
+    font-family: 'Lumanosimo', cursive;
 }
 
 

@@ -1,13 +1,232 @@
-@media only screen and (max-width: 1441px) and (min-width: 400px) {
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
     .subscribe button {
-        left: 61.6%;
+        top: 38.5%;
+        left: 83.4%;
+    }
+
+    .subscribe input {
+        padding: 10px 49px 10px 10px;
+        text-align: start;
+        margin-bottom: 12px;
     }
 }
 
-@media only screen and (max-width: 1281px) and (min-width: 800px) {
-
-    .footer {
-        max-width: 1280px;
+/* 768 */
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+    .subscribe input {
+        padding: 10px 49px 10px 10px;
+        text-align: start;
+        margin-bottom: 12px;
     }
 
+    .subscribe button {
+        top: 21.8%;
+        left: 154%;
+    }
+
+    .subscribe h2 {
+        font-size: 20px;
+        width: 230px;
+    }
+
+    .subscribe p {
+        font-size: 15px;
+        width: 200px;
+    }
+
+    .footer-box {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer h4 {
+        font-size: 20px;
+    }
+
+    .footer-logo .logo {
+        text-align: center;
+    }
+
+    .address p {
+        font-size: 18px;
+        width: 210px;
+    }
+
+    .explore ul li a {
+        font-size: 18px;
+    }
+
+    .footer-end {
+        padding: 10px 18px;
+    }
+
+    .footer-end p {
+        font-size: 14px;
+    }
+}
+
+/* 425 */
+@media only screen and (max-width: 425px) and (min-width: 376px) {
+    .subscribe input {
+        padding: 10px 49px 10px 10px;
+        text-align: start;
+        margin-bottom: 12px;
+    }
+
+    .subscribe button {
+        top: 21.8%;
+        left: 172%;
+    }
+
+    .subscribe h2 {
+        font-size: 20px;
+        width: 230px;
+    }
+
+    .subscribe p {
+        font-size: 15px;
+        width: 200px;
+    }
+
+    .footer-box {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer h4 {
+        font-size: 20px;
+    }
+
+    .footer-logo .logo {
+        text-align: center;
+    }
+
+    .address p {
+        font-size: 18px;
+        width: 210px;
+    }
+
+    .explore ul li a {
+        font-size: 18px;
+    }
+
+    .footer-end {
+        padding: 10px;
+    }
+
+    .footer-end p {
+        font-size: 14px;
+    }
+}
+
+/* 375 */
+@media only screen and (max-width: 375px) and (min-width: 321px) {
+    .subscribe input {
+        padding: 10px 49px 10px 10px;
+        text-align: start;
+        margin-bottom: 12px;
+    }
+
+    .subscribe button {
+        top: 21.8%;
+        left: 189%;
+    }
+
+    .subscribe h2 {
+        font-size: 20px;
+        width: 230px;
+    }
+
+    .subscribe p {
+        font-size: 15px;
+        width: 200px;
+    }
+
+    .footer-box {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer h4 {
+        font-size: 20px;
+    }
+
+    .footer-logo .logo {
+        text-align: center;
+    }
+
+    .address p {
+        font-size: 18px;
+        width: 210px;
+    }
+
+    .explore ul li a {
+        font-size: 18px;
+    }
+
+    .footer-end {
+        padding: 12px;
+    }
+
+    .footer-end p {
+        font-size: 14px;
+    }
+}
+
+/* 320 */
+@media only screen and (max-width: 320px) and (min-width: 280px) {
+    .subscribe input {
+        padding: 10px 49px 10px 10px;
+        text-align: start;
+        margin-bottom: 12px;
+    }
+
+    .subscribe button {
+        top: 21.8%;
+        left: 219%;
+    }
+
+    .subscribe h2 {
+        font-size: 20px;
+        width: 230px;
+    }
+
+    .subscribe p {
+        font-size: 15px;
+        width: 200px;
+    }
+
+    .footer-box {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer h4 {
+        font-size: 20px;
+    }
+
+    .footer-logo .logo {
+        text-align: center;
+    }
+
+    .address p {
+        font-size: 18px;
+        width: 210px;
+    }
+
+    .explore ul li a {
+        font-size: 18px;
+    }
+
+    .footer-end {
+        padding: 10px;
+    }
+
+    .footer-end p {
+        font-size: 14px;
+    }
 }

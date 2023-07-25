@@ -13,9 +13,9 @@
 .beskope h1 {
     font-size: 72px;
     font-weight: 900;
-    font-family: initial;
     width: 59%;
     margin-bottom: 30px;
+    font-family: 'Righteous', cursive;
 }
 
 .beskope p {
@@ -48,7 +48,7 @@
 }
 
 .services h1 {
-    font-family: initial;
+    font-family: 'Righteous', cursive;
     font-size: 72px;
     line-height: 1.33;
     font-weight: 900;
@@ -206,9 +206,9 @@
     justify-content: space-between;
 }
 
-.aboutus h1 {
+.aboutus h2 {
     font-size: 72px;
-    font-family: initial;
+    font-family: 'Righteous', cursive;
     font-weight: 900;
 }
 
@@ -353,7 +353,7 @@
 .blog-title h1 {
     font-size: 72px;
     font-weight: 900;
-    font-family: initial;
+    font-family: 'Righteous', cursive;
 }
 
 .blog button {
@@ -439,7 +439,7 @@
 }
 
 .business-title h3 {
-    font-family: initial;
+    font-family: 'Great Vibes', cursive;
     font-size: 36px;
     font-weight: 900;
     line-height: 48px;

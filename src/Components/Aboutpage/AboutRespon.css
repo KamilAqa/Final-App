@@ -1,0 +1,177 @@
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+    .about-image {
+        height: 450px;
+    }
+
+    .about h1 {
+        font-size: 44px;
+    }
+
+    .about p {
+        font-size: 18px;
+        width: 80%;
+    }
+
+    .we-are-title {
+        width: 100%;
+    }
+
+    .we-are-title h3 {
+        font-size: 40px;
+    }
+
+    .we-are-title h1 {
+        font-size: 36px;
+    }
+
+    .we-are-title p {
+        font-size: 18px;
+    }
+
+    .numbers .number h4 {
+        font-size: 36px;
+    }
+
+    .business button {
+        padding: 10px 15px;
+    }
+}
+
+/* 425 */
+@media only screen and (max-width: 425px) and (min-width: 375px) {
+    .about-image {
+        height: 400px;
+    }
+
+    .about h1 {
+        font-size: 44px;
+        padding-top: 40px;
+    }
+
+    .about p {
+        font-size: 18px;
+        width: 80%;
+    }
+
+    .we-are-title {
+        width: 100%;
+    }
+
+    .we-are-title h3 {
+        font-size: 30px;
+    }
+
+    .we-are-title h1 {
+        font-size: 32px;
+    }
+
+    .we-are-title p {
+        font-size: 14px;
+    }
+
+    .numbers .number h4 {
+        font-size: 30px;
+    }
+
+    .business button {
+        padding: 10px 20px;
+    }
+}
+
+/* 375 */
+@media only screen and (max-width: 375px) and (min-width: 321px) {
+    .about-image {
+        height: 350px;
+    }
+
+    .about h1 {
+        font-size: 35px;
+    }
+
+    .about p {
+        font-size: 16px;
+        width: 80%;
+    }
+
+    .we-are-title {
+        width: 100%;
+    }
+
+    .we-are-title h3 {
+        font-size: 37px;
+    }
+
+    .we-are-title h1 {
+        font-size: 31px;
+    }
+
+    .we-are-title p {
+        font-size: 14px;
+    }
+
+    .numbers .number h4 {
+        font-size: 30px;
+    }
+
+    .business button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .business {
+        padding: 0 30px;
+    }
+
+    .business-box {
+        width: 100%;
+    }
+}
+
+/* 320 */
+@media only screen and (max-width: 320px) and (min-width: 280px) {
+    .about-image {
+        height: 350px;
+    }
+
+    .about h1 {
+        font-size: 35px;
+    }
+
+    .about p {
+        font-size: 16px;
+        width: 80%;
+    }
+
+    .we-are-title {
+        width: 100%;
+    }
+
+    .we-are-title h3 {
+        font-size: 37px;
+    }
+
+    .we-are-title h1 {
+        font-size: 31px;
+    }
+
+    .we-are-title p {
+        font-size: 14px;
+    }
+
+    .numbers .number h4 {
+        font-size: 26px;
+    }
+
+    .business button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .business {
+        padding: 0 30px;
+    }
+
+    .business-box {
+        width: 100%;
+    }
+}

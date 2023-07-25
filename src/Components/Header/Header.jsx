@@ -1,7 +1,9 @@
 import { useState } from "react";
 import "./Header.css"
 import "./headerrespon.css"
-
+import { MDBDropdown, MDBDropdownMenu, MDBDropdownToggle, MDBDropdownItem } from 'mdb-react-ui-kit';
+import Dropdown from 'react-bootstrap/Dropdown';
+import DropdownButton from 'react-bootstrap/DropdownButton';
 // Route
 import { Link } from "react-router-dom";
 import SignModal from "../SignModal/SignModal";
@@ -18,7 +20,7 @@ const Header = () => {
     return (
         <div className="header-respon">
             <header>
-                <Link className="header-logo" to="/"><h1>King Academy</h1></Link>
+                <Link className="header-logo" to="/"><h1>KG</h1></Link>
                 <ul className="menu">
                     <li><Link to="/about">Haqqımızda</Link></li>
                     <li><Link to="/education">Tədris proqramları</Link></li>
@@ -30,7 +32,18 @@ const Header = () => {
 
                     </div></li>
                 </ul>
+                <DropdownButton id="dropdown-basic-button" title="Menu">
+                    <Dropdown.Item to="/about"><Link to="/about">Haqqımızda</Link></Dropdown.Item>
+                    <Dropdown.Item to="/education"><Link to="/education">Tədris proqramları</Link></Dropdown.Item>
+                    <Dropdown.Item to="/contact"><Link to="/contact">Əlaqə</Link></Dropdown.Item>
+                    <Dropdown.Item to="#/action-4"><div className="open-modal">
+                        <button onClick={() => SetIsOpen(true)}>Login/SignUp</button>
+                        <SignModal open={iSopen} onClose={() => SetIsOpen(false)} />
+
+                    </div></Dropdown.Item>
+                </DropdownButton>
             </header>
+
         </div>
     )
 }

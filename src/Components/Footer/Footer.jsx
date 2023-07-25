@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="footer-box">
 
                 <div className="footer-logo">
-                    <Link className="logo" to="/"><h1>King Academy</h1></Link>
+                    <Link className="logo" to="/"><h1>KG</h1></Link>
 
                     {/* <img className="logo" src="https://efcgroup.com/assets/images/logo.svg" alt="" /> */}
                 </div>

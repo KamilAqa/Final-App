@@ -1,5 +1,5 @@
 import "./Contact.css";
-
+import "./ContactRespon.css"; 
 // Components
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
@@ -53,7 +53,7 @@ const Contact = () => {
                         </button>
                         <ToastContainer />
                     </form>
-                    <textarea name="text" ref={texts} id="text" cols="30" rows="10" className="w-100 mb-4" value={text} onChange={(e) => setText(e.target.value)} placeholder="Sualınızı qeyd edin"></textarea>
+                    <textarea name="text" ref={texts} id="text" cols="30" rows="10" className="mb-4" value={text} onChange={(e) => setText(e.target.value)} placeholder="Sualınızı qeyd edin"></textarea>
                 </section>
                 <section className="contact-us-info">
                     <div className="">

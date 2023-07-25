@@ -1,12 +1,11 @@
-import "./Aboutpage.css"
+import "./Aboutpage.css";
+import "./AboutRespon.css";
 
 // Components
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
-// import design from "../../image/pngwing.com.png";
 
 // Route
-// import { Link } from "react-router-dom";
 import { useSpring, animated } from "react-spring";
 
 
@@ -63,41 +62,7 @@ const Aboutpage = () => {
                         </div>
                     </div>
                 </section>
-                {/* <section className="aboutus">
-                    <div className="aboutus-left">
-                        <div className="abouts-title">
-                            <h1>About Us</h1>
-                            <p>We support construction companies to achieve their objectives utilizing business development, financial, and project management tools. While our background lets us grasp the essence of the industry in-depth, we comprehend the significance of time and money for successful project implementation. Thus, our solutions are swift and tailored for your needs.</p>
-                        </div>
-                        <button>Learn more <BsArrowRight /></button>
-                    </div>
-                    <div className="abouts-right">
-                        <img src="https://efcgroup.com/images/cache/19/197c0c_about-home.jpg" alt="" />
-                    </div>
-                </section> */}
 
-                {/* SECTION2 */}
-                {/* <section className="careers">
-                    <div className="careers-left">
-                        <div className="careers-img">
-                            <img src="https://efcgroup.com/images/cache/ce/ce02a9_career-home.jpg" alt="" />
-                        </div>
-                    </div>
-                    <div className="careers-right">
-                        <div className="careers-right-title">
-                            <h1>Careers</h1>
-                            <p>We are always looking for highly skilled, committed, and enthusiastic people to join our team.</p>
-                        </div>
-
-                        <ul className="careers-list">
-                            <li><Link to="">Lead Specialist / Business Development Department <span>Read more</span> <BsArrowRight />
-                            </Link></li>
-                            <li><Link to="">Head of Technical Office <span>Read more</span> <BsArrowRight /> </Link></li>
-                            <li><Link to="">Lead Project Control Engineer <span>Read more</span> <BsArrowRight /> </Link></li>
-                        </ul>
-                        <button>All vacancies <span><BsArrowRight /></span></button>
-                    </div>
-                </section> */}
                 {/* SECTION4 */}
                 <section className="business container">
                     <div className="business-box container">

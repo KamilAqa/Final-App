@@ -8,8 +8,10 @@
 .contact-us {
     color: white;
     padding-top: 12%;
-    padding-left: 25%;
     margin-bottom: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contact-us h1 {
@@ -49,6 +51,7 @@
 
 .contact-us-form textarea {
     border: 1px solid #006CB6;
+    width: 100%;
 }
 
 .contact-us-form button {

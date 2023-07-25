@@ -11,7 +11,7 @@ import Footer from "../Footer/Footer";
 const Education = () => {
     return (
         <>
-            {/* <Header /> */}
+            <Header />
             <div className="education-image">
                 <div className="overlay"></div>
                 <section className="education container">
@@ -81,7 +81,7 @@ const Education = () => {
                 </div>
             </section>
 
-            {/* <Footer /> */}
+            <Footer />
         </>
     )
 }

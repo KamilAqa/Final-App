@@ -43,7 +43,7 @@ const Homepage = () => {
 
     return (
         <div className="home-respon">
-            {/* <Header /> */}
+            <Header />
             <div className="h-image">
                 <div className="overlay"></div>
                 <section className="beskope">
@@ -222,7 +222,7 @@ const Homepage = () => {
                 </div>
             </section>
             <Route>
-                {/* <Footer /> */}
+                <Footer />
             </Route>
         </div>
     )

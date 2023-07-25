@@ -1,5 +1,5 @@
 import './SignModal.css';
-// import './Modalrespon.css';
+import "./SignModalRespon.css";
 
 // Image
 // import Logo from "./image/144.png"
@@ -39,8 +39,8 @@ function SignModal({ open, onClose }) {
                     {/* <img src={Logo} alt="" /> */}
                 </div>
                 <div className='login-title'>
-                    <h2>Welcome to University Living</h2>
-                    <p>Please enter your email, we'll send you otp on your email address</p>
+                    <h2>King Academy</h2>
+                    <p>Please enter your email</p>
                 </div>
                 <form onSubmit={handleLogin}>
                     <input type="email" id='email' name='email' ref={isEmail} value={isMail} onChange={(e) => setIsMail(e.target.value)} required="required " />
